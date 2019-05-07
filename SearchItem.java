@@ -17,9 +17,9 @@ public class SearchItem
     String search;
     System.out.println("Please enter the number of elements: ");
     
-    num = scanner.nextInt(); //input
+    num = scanner.nextInt() + 1; //input
     
-    Comparable[] array = new Comparable[num+1];
+    Comparable[] array = new Comparable[num];
     
     System.out.println("Enter your element please: ");
     for(int i = 0; i < num; i++)
